@@ -1,4 +1,4 @@
-FROM node: 13.8.0
+FROM node: 12.13.1
 COPY . .
 RUN npm install
 EXPOSE 8000
